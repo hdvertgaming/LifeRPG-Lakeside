@@ -18,9 +18,9 @@ playsound "copintro";
 //}; 
 sleep 2; //Wait in seconds before the credits start after player is in-game
 _role1 = "Welcome to";
-_role1names = ["Arma3Life"];       //Add your texts here!
+_role1names = ["LifeRPG A3L"];       //Add your texts here!
 _role2 = "Always be on TS";
-_role2names = ["ts3.arma3-life.com"];
+_role2names = [""];
 _role3 = "Rules";
 _role3names = ["Follow the rules on the forums"];
 _role4 = "Stay In-Character!";
