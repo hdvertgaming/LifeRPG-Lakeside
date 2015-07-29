@@ -415,21 +415,28 @@ switch(_shop) do
                                 ["Heisen's Jihadi Shop",
                                         [
 											["A3L_SA61",nil,45000],
-											["A3L_SA61mag",nil,900],
-											["A3L_UZI",nil,37250],
-											["A3L_UZImag",nil,950],
+											["A3L_SA61mag",nil,1000],
+											["A3L_UZI",nil,55000],
+											["A3L_UZImag",nil,1000],
 											
-											["A3L_AK47",nil,120000],
+											["A3L_AK47",nil,175000],
 											["A3L_AK47mag",nil,2500],
 											
-											["A3L_AK47s",nil,135000],
-											["A3L_AK47sgold",nil,175000],											
-											["A3L_AK47smag",nil,2750],		
+											["A3L_AK47s",nil,150000],
+											["A3L_AK47sgold",nil,350000],											
+											["A3L_AK47smag",nil,2500],		
 
-											["A3L_AKS74",nil,190000],
-											["A3L_AK47sMag",nil,2750],
+											["A3L_AKS74",nil,125000],
+											["A3L_AK47sMag",nil,2500],
+											["RH_g18",nil,45000],
+											["RH_33Rnd_9x19_g18",nil,1000],
+											["ej_Thompson","Thompson SMG",75000],
+											["ej_ThompsonTactical2","Thompson SMG Tactical",100000],
+											["Thompson_mag","20Rnd Thompson Mag",1000],
+											["RH_ar10",nil,175000],
+											["RH_20Rnd_762x51_AR10",nil,2500],
 											
-											["A3L_RedDot",nil,8500]
+											["A3L_RedDot",nil,10000]
 										]
                                 ];
                         };
@@ -446,21 +453,21 @@ switch(_shop) do
                         {
                                 ["Billy Joe's Firearms",
                                         [
-                                                ["A3L_Glock17",nil,17600],
+                                                ["A3L_Glock17",nil,20000],
 												["A3L_Glock17mag",nil,500],
-												["RH_g19t",nil,18500],
-                                                ["RH_17Rnd_9x19_g17",nil,1250],
-												["A3L_M9",nil,17200],
-												["A3L_M9mag",nil,400],
-												["A3L_makarov",nil,14500],
-												["A3L_makarovmag",nil,250],
-												["A3L_1911",nil,18000],
-												["A3L_1911mag",nil,600],
-												["A3L_Taurus",nil,32500],
+												["RH_g19t",nil,25000],
+                                                ["RH_17Rnd_9x19_g17",nil,750],
+												["A3L_M9",nil,15000],
+												["A3L_M9mag",nil,500],
+												["A3L_makarov",nil,15000],
+												["A3L_makarovmag",nil,500],
+												["A3L_1911",nil,20000],
+												["A3L_1911mag",nil,500],
+												["A3L_Taurus",nil,30000],
 												["A3L_TaurusGold",nil,35000],
-												["A3L_Taurusmag",nil,970],
-												["RH_gsh18",nil,41500],
-                                                ["RH_18Rnd_9x19_gsh",nil,1250]
+												["A3L_Taurusmag",nil,1000],
+												["RH_gsh18",nil,42500],
+                                                ["RH_18Rnd_9x19_gsh",nil,1000]
 												
                                         ]
                                 ];
