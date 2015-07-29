@@ -34,7 +34,7 @@ switch (_filter) do
 			_ret set[count _ret,["fto_uni","Field Training Uniform",1500]];
 			_ret set[count _ret,["doj_uni","DoC Uniform",1500]];
 			_ret set[count _ret,["sheriff_uni1","Highway Patrol Clothing",1500]];
-			_ret set[count _ret,["A3L_Sheriff_Uniform","Standard Clothing",1500]];
+			_ret set[count _ret,["A3L_Sheriff_Uniform","Lakeside Patrol Clothing",1500]];
 			_ret set[count _ret,["sheriff_uni2","Captain Uniform",1500]];
 			_ret set[count _ret,["police_uni3","Chief Uniform",1500]];
 		};	
