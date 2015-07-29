@@ -16,64 +16,116 @@ ctrlSetText[3103,"Lakeside Police Department Shop"];
 _ret = [];
 switch (_filter) do
 {
-	case 0:
-	{
-		_ret set[count _ret,["A3L_Sheriff_Uniform","Sheriff Uniform",500]];
-	    _ret set[count _ret,["fto_uni","Field Training Uniform",150]];
-		_ret set[count _ret,["FBI_uni","FBI Uniform",150]];
-		_ret set[count _ret,["swat_uni1","SERT Uniform",150]];
-		_ret set[count _ret,["U_B_HeliPilotCoveralls","Pilot Uniform",150]];
+    case 0:
+    {
+        _ret set[count _ret,["cadet_uni","Cadet Uniform",1500]];
+		if(__GETC__(life_coplevel) > 1) then
+        {
+			_ret set[count _ret,["A3L_Police_Uniform","Police Uniform",1500]];
+			_ret set[count _ret,["police_uni1","Officer Uniform",1500]];
+        };
+        if(__GETC__(life_coplevel) > 1) then
+        {
+			_ret set[count _ret,["police_uni2","Sergeant Uniform",1500]];
+		};	
+		if(__GETC__(life_coplevel) > 1) then
+        {	
+			_ret set[count _ret,["doj_uni","DoJ Uniform",1500]];
+			_ret set[count _ret,["FBI_uni","FBI Uniform",1500]];
+            _ret set[count _ret,["sheriff_uni1","Sheriff Uniform 1",1500]];
+			_ret set[count _ret,["sheriff_uni2","Sheriff Uniform 2",1500]];
+			_ret set[count _ret,["A3L_Sheriff_Uniform","Sheriff Uniform",1500]];
+		};	
+		if(__GETC__(life_coplevel) > 1) then
+        {
+			_ret set[count _ret,["fto_uni","Field Training Uniform",1500]];
+		};
+		if(__GETC__(life_coplevel) > 1) then
+        {	
+			_ret set[count _ret,["police_uni3","Chief Uniform",1500]];
+		};
+		if(!license_cop_swat) then
+        {	
+			_ret set[count _ret,["sert_1","Swat Uniform",1500]];
+		};
 	};
 	
+	//Hats
 	case 1:
 	{
-		_ret set[count _ret,["A3L_sargehat",nil,50]];
-		_ret set[count _ret,["H_PilotHelmetHeli_B","Pilot Helmet",50]];
-		_ret set[count _ret,["H_HelmetB_black","SERT Helmet",50]];
+		_ret set[count _ret,["A3L_policehelmet",nil,500]];
+		_ret set[count _ret,["A3L_sargehat",nil,500]];
 	};
 	
+	//Glasses
 	case 2:
 	{
 		_ret = 
 		[
-			["G_Shades_Black",nil,25],
-			["G_Shades_Blue",nil,20],
-			["G_Sport_Blackred",nil,20],
-			["G_Sport_Checkered",nil,20],
-			["G_Sport_Blackyellow",nil,20],
-			["G_Sport_BlackWhite",nil,20],
-			["G_Aviator",nil,75],
-			["G_Squares",nil,10],
-			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55],
-			["G_Balaclava_blk",nil,55],
-			["G_Balaclava_combat",nil,55],
-			["G_Balaclava_lowprofile",nil,55],
-			["A3L_Balaclava",nil,60]
-			
+			["G_Shades_Black",nil,250],
+			["G_Shades_Blue",nil,200],
+			["G_Sport_Blackred",nil,200],
+			["G_Sport_Checkered",nil,200],
+			["G_Sport_Blackyellow",nil,200],
+			["G_Sport_BlackWhite",nil,200],
+			["G_Aviator",nil,750],
+			["G_Squares",nil,100],
+			["G_Lowprofile",nil,300],
+			["G_Combat",nil,550]
 		];
 	};
 	
+	//Vest
 	case 3:
 	{
-		_ret set[count _ret,["SWATvest2","Sheriff Vest",200]];
-		_ret set[count _ret,["A3L_fbivest1","FBI Vest",200]];
-		_ret set[count _ret,["A3L_sheriffvest3","Sheriff Vest (Green)",200]];
-		_ret set[count _ret,["A3L_sheriffvest2","Sheriff Vest (Grey)",200]];
-		_ret set[count _ret,["A3L_sheriffvest1","Sheriff Vest (Tan)",200]];
-		_ret set[count _ret,["V_Rangemaster_belt","Pilot Holster",200]];
-		_ret set[count _ret,["SWATvest1","SERT Vest",200]];
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_ret set[count _ret,["A3L_policevest2","Black Police Vest (WF)",2000]];
+			_ret set[count _ret,["A3L_policevest1","Black Police Vest (YF) ",2000]];
+			_ret set[count _ret,["rangervest_co","ranger Vest",2000]];
+			_ret set[count _ret,["A3L_RideAlongVest","Ride Along",200]];
+		    _ret set[count _ret,["cl3_police_vest_yellow","Cadet/Recruit",200]];
+		    _ret set[count _ret,["A3L_policevest2","Patrol White",200]];
+		    _ret set[count _ret,["A3L_policevest1","Patrol Yellow",200]];
+		    _ret set[count _ret,["A3L_deptjvest1","Corrections",200]];
+		    _ret set[count _ret,["TCG_troopervest1","Trooper",200]];
+		    _ret set[count _ret,["DAI_TACVEST_WHITE","IA White",200]];
+		    _ret set[count _ret,["DAI_TACVEST_YELLOW","IA Yellow",200]];
+		    _ret set[count _ret,["DAI_TACVEST_BLACK","IA Black w/Holster",200]];
+		    _ret set[count _ret,["DAI_TACVEST_TAN","IA Tan w/holster",200]];
+		    _ret set[count _ret,["TCG_swatvest1","SWAT OFC",200]];
+		    _ret set[count _ret,["TCG_swatvest2","SWAT CPL",200]];
+		    _ret set[count _ret,["TCG_swatvest3","SWAT SGT",200]];
+		    _ret set[count _ret,["TCG_swatvest1","SWAT LT",200]];
+		    _ret set[count _ret,["TRYK_V_tacv1LC_P_BK","Code Red Vest",200]];
+		    _ret set[count _ret,["TRYK_V_tacv1LP_BK","Command Vest 1",200]];
+		    _ret set[count _ret,["TRYK_V_PlateCarrier_POLICE","Command Vest 2",200]];
+		};	
+		if(__GETC__(life_coplevel) > 1) then
+		{
+			_ret set[count _ret,["A3L_deptjvest1","DoJ Vest",2000]];
+			_ret set[count _ret,["A3L_fbivest1","FBI Vest",2000]];
+			_ret set[count _ret,["A3L_sheriffvest3","Sheriff Vest (Green)",2000]];
+			_ret set[count _ret,["A3L_sheriffvest2","Sheriff Vest (Grey)",2000]];
+			_ret set[count _ret,["A3L_sheriffvest1","Sheriff Vest (Tan)",2000]];
+			_ret set[count _ret,["SWATvest1","SWAT Vest",2000]];
+			_ret set[count _ret,["SWATvest2","SWAT Vest No Holster",2000]];
+		};
 	};
 	
+	//Backpacks
 	case 4:
 	{
 		_ret =
 		[
+			["tf_anprc152",nil,800],
+			["tf_rt1523g",nil,300],
 			["B_Kitbag_cbr",nil,800],
 			["B_FieldPack_cbr",nil,500],
 			["B_AssaultPack_cbr",nil,700],
 			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500]
+			["B_Carryall_cbr",nil,3500],
+			["cl3_police_tacticalbelt","Police Belt",800]
 		];
 	};
 };

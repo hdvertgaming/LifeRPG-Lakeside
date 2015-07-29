@@ -63,26 +63,24 @@ switch(_shop) do
         };
 	
 		
-        case "cop_basic":
+        case "cop_cadet":
         {
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
                         default
                         {
-                                ["Junior Deputy Shop",
+                                ["Cadet Shop",
                                         [
 												["FirstAidKit",nil,250],
 												["Medikit",nil,500],
 												["ToolKit",nil,500],
-												
-                                                ["A3L_Glock17",nil,7600],
-												["A3L_Glock17mag",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
 												
                                                 ["Taser_26","Taser",2000],
 												
                                                 ["26_cartridge",nil,50],
-                                                ["Chemlight_red",nil,100],
 												
                                                 ["Binocular",nil,150],
                                                 ["ItemGPS",nil,100],
@@ -94,84 +92,312 @@ switch(_shop) do
                         };
                 };
         };
-        case "cop_patrol":
+        case "cop_officer":
         {
                 switch(true) do
                 {
-                        case (playerSide != west): {"You are not a deputy!"};
-                        case (__GETC__(life_coplevel) < 2): {"You are not at a deputy rank!"};
+                        case (playerSide != west): {"You are not a Officer!"};
+                        case (__GETC__(life_coplevel) < 2): {"You are not at a Officer rank!"};
                         default
                         {
-                                ["Deputy Shop",
-                                        [
-                                                ["A3L_MP5",nil,8500],
-												["A3L_MP5mag",nil,500],	
-												["A3L_MP5Silencer",nil,3000],
-												
-                                                ["A3L_Glock17",nil,7600],
+                                ["Officer Shop",
+                                        [		
+                                                ["A3L_Glock17",nil,5000],
 												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
                                                 ["Taser_26","Taser",2000],
-											
+												
+                                                ["26_cartridge",nil,50],
 												
                                                 ["Binocular",nil,150],
                                                 ["ItemGPS",nil,100],
-                                                ["ToolKit",nil,250],
+                                                
                                                 ["NVGoggles",nil,2000],
-                                                ["tf_anprc152",nil,100],
-                                                ["tf_rt1523g",nil,300]
+                                                ["tf_anprc152",nil,100]
+											
+		
                                         ]
                                 ];
                         };
                 };
         };
-        case "cop_sergeant":
+        case "cop_seniorofficer":
         {
                 switch(true) do
                 {
-                        case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 3): {"You are not at a sergeant rank!"};
+                        case (playerSide != west): {"You are not a Senior Officer!"};
+                        case (__GETC__(life_coplevel) < 3): {"You are not at a Senior Officer rank!"};
                         default
                         {
-                                ["Sergeant Shop",
+                                ["Senior Officer Shop",
                                         [
-                                                ["A3L_M4A3",nil,8000],
-                                                ["A3L_M4mag",nil,650],
-                                                ["A3L_M4Flashlight",nil,500],
-												["A3L_CCO",nil,500],
-												["A3L_RedDot",nil,500],
+										        ["A3L_MP5",nil,10000],
+												["A3L_MP5mag",nil,1000],	
+												["A3L_MP5Silencer",nil,1000],
+                                                ["A3L_Glock17",nil,5000],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
 												
                                                 ["Taser_26","Taser",2000],
+												
                                                 ["26_cartridge",nil,50],
-                                                ["Chemlight_red",nil,100],
-
 												
                                                 ["Binocular",nil,150],
                                                 ["ItemGPS",nil,100],
-                                                ["ToolKit",nil,250],
+                                                
                                                 ["NVGoggles",nil,2000],
-                                                ["tf_anprc152",nil,100],
-                                                ["tf_rt1523g",nil,300]
+                                                ["tf_anprc152",nil,100]
                                         ]
                                 ];
                         };
                 };
         };
 		
-        case "cop_swat":
+        case "cop_sergeant":
         {
                 switch(true) do
                 {
-                        case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 4): {"You are not at a sergeant rank!"};
+                        case (playerSide != west): {"You are not a Sergeant!"};
+                        case (__GETC__(life_coplevel) < 4): {"You are not at a Sergeant rank!"};
                         default
                         {
-                                ["SERT Shop",
+                                ["Sergeant Shop",
                                         [
+                                                ["A3L_M4A3",nil,20000],
+                                                ["A3L_M4mag",nil,2000],
+                                                ["A3L_M4Flashlight",nil,1000],
+												["A3L_CCO",nil,1000],
+												["A3L_RedDot",nil,1000],
+												["A3L_MP5",nil,10000],
+												["A3L_MP5mag",nil,1000],	
+												["A3L_MP5Silencer",nil,1000],
+                                                ["A3L_Glock17",nil,5000],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
+                                                ["Taser_26","Taser",2000],
+												
+                                                ["26_cartridge",nil,50],
+												
+                                                ["Binocular",nil,150],
+                                                ["ItemGPS",nil,100],
+                                                ["NVGoggles",nil,2000],
+                                                ["tf_anprc152",nil,100]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+		case "cop_lieutenant":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not a Lieutenant!"};
+                        case (__GETC__(life_coplevel) < 5): {"You are not at a Lieutenant rank!"};
+                        default
+                        {
+                                ["Lieutenant Shop",
+                                        [
+										        ["RH_M16A4",nil,30000],
+                                                ["RH_30Rnd_556x45_M855A1",nil,3000],
+                                                ["RH_reflex",nil,1000],
+                                                ["optic_Arco",nil,1000],
+                                                ["A3L_M4A3",nil,20000],
+                                                ["A3L_M4mag",nil,2000],
+                                                ["A3L_M4Flashlight",nil,1000],
+												["A3L_CCO",nil,1000],
+												["A3L_RedDot",nil,1000],
+												["A3L_MP5",nil,10000],
+												["A3L_MP5mag",nil,1000],	
+												["A3L_MP5Silencer",nil,1000],
+                                                ["A3L_Glock17",nil,5000],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
+                                                ["Taser_26","Taser",2000],
+												
+                                                ["26_cartridge",nil,50],
+												
+                                                ["Binocular",nil,150],
+                                                ["ItemGPS",nil,100],
+                                                ["NVGoggles",nil,2000],
+                                                ["tf_anprc152",nil,100]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+		case "cop_captain":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not a Captain!"};
+                        case (__GETC__(life_coplevel) < 6): {"You are not at a Captain rank!"};
+                        default
+                        {
+                                ["Captain Shop",
+                                        [
+										        ["RH_Hk416",nil,50000],
+                                                ["RH_30Rnd_556x45_Mk262",nil,5000],
+												["RH_usp",nil,5000],
+                                                ["RH_12Rnd_45cal_usp",nil,500],
+												["RH_M16A4",nil,30000],
+                                                ["RH_30Rnd_556x45_M855A1",nil,3000],
+                                                ["RH_reflex",nil,1000],
+                                                ["optic_Arco",nil,1000],
+                                                ["A3L_M4A3",nil,20000],
+                                                ["A3L_M4mag",nil,2000],
+                                                ["A3L_M4Flashlight",nil,1000],
+												["A3L_CCO",nil,1000],
+												["A3L_RedDot",nil,1000],
+												["A3L_MP5",nil,10000],
+												["A3L_MP5mag",nil,1000],	
+												["A3L_MP5Silencer",nil,1000],
+                                                ["A3L_Glock17",nil,5000],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
+                                                ["Taser_26","Taser",2000],
+												
+                                                ["26_cartridge",nil,50],
+												
+                                                ["Binocular",nil,150],
+                                                ["ItemGPS",nil,100],
+                                                ["NVGoggles",nil,2000],
+                                                ["tf_anprc152",nil,100]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+		case "cop_chief":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not a Chief!"};
+                        case (__GETC__(life_coplevel) < 7): {"You are not at a Chief rank!"};
+                        default
+                        {
+                                ["Chief Shop",
+                                        [
+										        ["RH_Hk416",nil,50000],
+                                                ["RH_30Rnd_556x45_Mk262",nil,5000],
+												["RH_usp",nil,5000],
+                                                ["RH_12Rnd_45cal_usp",nil,500],
+												["RH_M16A4",nil,30000],
+                                                ["RH_30Rnd_556x45_M855A1",nil,3000],
+                                                ["RH_reflex",nil,1000],
+                                                ["optic_Arco",nil,1000],
+                                                ["A3L_M4A3",nil,20000],
+                                                ["A3L_M4mag",nil,2000],
+                                                ["A3L_M4Flashlight",nil,1000],
+												["A3L_CCO",nil,1000],
+												["A3L_RedDot",nil,1000],
+												["A3L_MP5",nil,10000],
+												["A3L_MP5mag",nil,1000],	
+												["A3L_MP5Silencer",nil,1000],
+                                                ["A3L_Glock17",nil,5000],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
+                                                ["Taser_26","Taser",2000],
+												
+                                                ["26_cartridge",nil,50],
+												
+                                                ["Binocular",nil,150],
+                                                ["ItemGPS",nil,100],
+                                                ["NVGoggles",nil,2000],
+                                                ["tf_anprc152",nil,100]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+		case "cop_swat":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not in SWAT!"};
+                        case (!license_cop_swat): {"You are not in SWAT!"};
+                        default
+                        {
+                                ["SWAT Shop",
+                                        [
+										        ["RH_M16A6",nil,2000],
+                                                ["RH_eotech553mag",nil,500],
+                                                ["RH_30Rnd_68x43_FMJ",nil,500],
+                                                ["RH_M4m",nil,3500],
+                                                ["RH_30Rnd_556x45_M855A1",nil,500],
+                                                ["RH_M4A6",nil,2000],
+                                                ["RH_30Rnd_68x43_FMJ",nil,500]
+										        ["RH_Hk416",nil,5000],
+                                                ["RH_30Rnd_556x45_Mk262",nil,50],
+												["RH_usp",nil,1000],
+                                                ["RH_12Rnd_45cal_usp",nil,500],
+												["RH_M16A4",nil,2000],
+                                                ["RH_30Rnd_556x45_M855A1",nil,500],
+                                                ["RH_reflex",nil,500],
+                                                ["optic_Arco",nil,500],
                                                 ["A3L_M4A3",nil,8000],
                                                 ["A3L_M4mag",nil,650],
                                                 ["A3L_M4Flashlight",nil,500],
 												["A3L_CCO",nil,500],
-												["A3L_RedDot",nil,500]
+												["A3L_RedDot",nil,500],
+												["A3L_MP5",nil,5000],
+												["A3L_MP5mag",nil,500],	
+												["A3L_MP5Silencer",nil,3000],
+                                                ["A3L_Glock17",nil,7600],
+												["A3L_Glock17mag",nil,500],
+												
+												["FirstAidKit",nil,250],
+												["Medikit",nil,500],
+												["ToolKit",nil,500],
+												["CG_BATON","Police Baton",100],
+                                                ["CG_TELEBAT","Police TeleBat",100],
+												
+                                                ["Taser_26","Taser",2000],
+												
+                                                ["26_cartridge",nil,50],
+												
+                                                ["Binocular",nil,150],
+                                                ["ItemGPS",nil,100],
+                                                ["NVGoggles",nil,2000],
+                                                ["tf_anprc152",nil,100]
                                         ]
                                 ];
                         };
@@ -186,7 +412,7 @@ switch(_shop) do
                         case (!license_civ_rebel): {"You don't have a Rebel training license!"};
                         default
                         {
-                                ["Mohammed's Jihadi Shop",
+                                ["Heisen's Jihadi Shop",
                                         [
 											["A3L_SA61",nil,45000],
 											["A3L_SA61mag",nil,900],
@@ -222,6 +448,8 @@ switch(_shop) do
                                         [
                                                 ["A3L_Glock17",nil,17600],
 												["A3L_Glock17mag",nil,500],
+												["RH_g19t",nil,18500],
+                                                ["RH_17Rnd_9x19_g17",nil,1250],
 												["A3L_M9",nil,17200],
 												["A3L_M9mag",nil,400],
 												["A3L_makarov",nil,14500],
@@ -230,7 +458,10 @@ switch(_shop) do
 												["A3L_1911mag",nil,600],
 												["A3L_Taurus",nil,32500],
 												["A3L_TaurusGold",nil,35000],
-												["A3L_Taurusmag",nil,970]
+												["A3L_Taurusmag",nil,970],
+												["RH_gsh18",nil,41500],
+                                                ["RH_18Rnd_9x19_gsh",nil,1250]
+												
                                         ]
                                 ];
                         };

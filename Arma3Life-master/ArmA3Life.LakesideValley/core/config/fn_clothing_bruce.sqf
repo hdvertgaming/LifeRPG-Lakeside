@@ -18,12 +18,148 @@ switch (_filter) do
 	case 0:
 	{
 		[
-		["A3L_Priest_Uniform","Priest Uniform",10000],
-		["A3L_Suit_Uniform","Suit",17500],
-		["A3L_Character_Uniform","Life Uniform",15000],
-		["A3L_Dude_Outfit","Dude outfit",20000],
-		["A3L_Farmer_Outfit","Farmer Outfit",20000],
-		["A3L_Worker_Outfit","Worker Outfit",20000],
+		["KAEL_SUITS_BR_F12",nil,17500],
+
+		["A3L_Suit_Uniform","Suit",13500],
+		["KAEL_SUITS_BLK_F",nil,13500],
+		["KAEL_SUITS_BR_F",nil,13500],
+		["KAEL_SUITS_BR_F3",nil,13500],
+		["KAEL_SUITS_BR_F4",nil,13500],
+		["KAEL_SUITS_BR_F5",nil,13500],
+		["KAEL_SUITS_BR_F6",nil,13500],
+		["KAEL_SUITS_BR_F7",nil,13500],
+		["KAEL_SUITS_BR_F8",nil,13500],
+		["KAEL_SUITS_BR_F9",nil,13500],
+		["KAEL_SUITS_BR_F10",nil,13500],
+		["KAEL_SUITS_BR_F11",nil,13500],
+		["KAEL_SUITS_BR_F13",nil,13500],
+		["KAEL_SUITS_BR_F14",nil,13500],
+
+		["TRYK_SUITS_BLK_F","TRYK Black Suit",13500],
+		["TRYK_SUITS_BR_F","TRYK Brown Suit",13500],
+
+
+
+
+//koil added
+
+		["cg_lahey1",nil,500],
+		["cg_lahey2",nil,500],
+		["cg_lahey3",nil,500],
+		["cg_bendozlia1",nil,500],
+		["cg_bendozlia2",nil,500],
+		["cg_bendozlia3",nil,500],
+		["cg_leppy1",nil,500],
+		["cg_whiskey",nil,500],
+		["cg_mileshigh1",nil,500],
+		["cg_mongo",nil,500],
+		["cg_shark",nil,500],
+
+		["cg_wildboy1",nil,500],
+		["cg_chickens1",nil,500],
+		["cg_et1",nil,500],
+		["cg_hand1",nil,500],
+		["cg_illuminati1",nil,500],
+		["cg_steam1",nil,500],
+		["cg_stoned1",nil,500],
+		["cg_taylorswift1",nil,500],
+		["cg_upyours1",nil,500],
+		["cg_woods1",nil,500],
+		["cg_strippers1",nil,500],
+		["cg_mayan1",nil,500],
+		["cg_loading1",nil,500],
+		["cg_hearts1",nil,500],
+		["cg_deeznuts1",nil,500],
+		["cg_dad1",nil,500],
+		["cg_awesome1",nil,500],
+		["cg_turtles1",nil,500],
+		["cg_pika1",nil,500],
+		["cg_masterrace1",nil,500],
+		["cg_lsd1",nil,500],
+		["cg_lambo1",nil,500],
+		["cg_kfc1",nil,500],
+		["cg_gamerepeat1",nil,500],
+		["cg_homer1",nil,500],
+		["cg_gameover1",nil,500],
+		["cg_fightclub1",nil,500],
+		["cg_ferrari1",nil,500],
+		["cg_ea1",nil,500],
+		["cg_pepsi1",nil,500],
+		["cg_mario1",nil,500],
+		["cg_lego1",nil,500],
+		["cg_burgerking1",nil,500],
+		["cg_beats1",nil,500],
+
+		["cg_bb1",nil,500],
+		["cg_bipolar1",nil,500],
+		["cg_catvideos1",nil,500],
+		["cg_condoms1",nil,500],
+		["cg_csgo1",nil,500],
+		["cg_got1",nil,500],
+		["cg_jason1",nil,500],
+		["cg_joker1",nil,500],
+		["cg_mtv1",nil,500],
+		["cg_nike1",nil,500],
+		["cg_peanut1",nil,500],
+		["cg_superman1",nil,500],
+		["cg_tupac1",nil,500],
+		["cg_wow1",nil,500],
+		["cg_herpderp1",nil,500],
+		["cg_iamstupid1",nil,500],
+		["cg_imwithstupid1",nil,500],
+		["cg_rageface1",nil,500],
+		["cg_troll1",nil,500],
+		["cg_arsenal1",nil,500],
+		["cg_australia1",nil,500],
+		["cg_barcelona1",nil,500],
+		["cg_brazil1",nil,500],
+		["cg_chelsea1",nil,500],
+		["cg_manchester1",nil,500],
+		["cg_mancity1",nil,500],
+		["cg_realmadrid1",nil,500],
+
+
+
+
+//koil added
+		["TRYK_U_B_PCUODHs",nil,2500],
+		["TRYK_U_B_PCUGHs",nil,2500],
+		["TRYK_U_B_PCUHs",nil,2500],
+
+		["TRYK_U_B_BLOD_T","Black T Green P",500],
+		["TRYK_U_B_BLKTAN_CombatUniform","Black T Tan P",700],
+		["TRYK_U_B_BLKTANR_CombatUniformTshirt","Black T Tan P II",700],
+		["TRYK_U_B_BLTAN_T","Black T Dark Tan P",500],
+		["TRYK_U_B_fleece_UCP","Leader",500],
+		["TRYK_U_B_ODTANR_CombatUniformTshirt","Green T Tan P",800],
+		["TRYK_U_B_PCUGs_OD","Jeans Green Hood",800],
+		["TRYK_U_B_PCUGs_gry","Jeans Gray Hood ",800],
+		["TRYK_U_B_PCUGs_BLK","Jeans Black Hood",800],
+		["TRYK_U_B_C02_Tsirt","Baggy Jeans + Black T",500],
+		["TRYK_OVERALL_SAGE_BLKboots_nk","Coveralls Green",400],
+		["TRYK_OVERALL_nok_flesh","Coveralls Tan",400],
+		["TRYK_U_B_wh_blk_Rollup_CombatUniform","White T Black Cargos",700],
+		["TRYK_U_B_wh_tan_Rollup_CombatUniform","White T Tan Cargos",700],
+		["TRYK_U_pad_hood_Blk","Black Hood Tan Cargos",1000],
+		["TRYK_U_denim_hood_blk","Black Hood Jeans II",1500],
+		["TRYK_U_denim_jersey_blk","Black T & Jeans",1000],
+		["TRYK_U_denim_jersey_blu","Blue T & Jeans",1000],
+		["TRYK_U_denim_hood_nc","Green Hood & Jeans",1000],
+		["TRYK_U_taki_wh","Tan Mid East",1000],
+		["TRYK_U_taki_BLK","Black Mid East",1000],
+		["TRYK_U_taki_COY","Brown Mid East ",1000],
+
+		["TRYK_U_B_BLK_T_BK","Black Jeans (Black)",500],
+		["TRYK_U_B_BLK_T_WH","Black Jeans (White)",500],
+		["TRYK_U_B_Denim_T_BK","Grey Jeans (Black)",500],
+		["TRYK_U_B_Denim_T_WH","Grey Jeans (White)",500],
+//koil added
+
+		["A3L_Priest_Uniform","Priest Uniform",1000],
+		["A3L_Character_Uniform","Life Uniform",1500],
+		["A3L_Dude_Outfit","Dude outfit",2000],
+		["A3L_Farmer_Outfit","Farmer Outfit",2000],
+		["A3L_Worker_Outfit","Worker Outfit",2000],
 		["A3LShirt","ArmA 3 Life Shirt",250],
 		["A3L_Poop2day","I Pooped Today!",275],
 		["A3L_A3LogoPants","A3L Logo Pants",150],
@@ -64,9 +200,9 @@ switch (_filter) do
 		["hanacd","Hannes Academy",350],
 		["nvidia","Nvidia Enthusiast",350],
 		["SFG","SF Giant",350],
-		["walkingdead","The Walking Dead",350]
-
-		
+		["walkingdead","The Walking Dead",350],
+		["A3L_SpookyMummy","Mummy",40000],
+		["A3L_Bikini_Girl","Bikini",40000]	
 		];
 	};
 	
@@ -74,10 +210,59 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["A3L_Legoman","Lego Helmet",10000],
-			["A3L_soa_helmet","Biker Helmet",4000],	
-			["A3L_gangster_hat","Gangster Mask",1000],
-			["A3L_Mask","Mask",1000],				
+
+
+
+			//koil added
+			["cg_horsehead",nil,11120],
+			["cg_horsehead_2",nil,11120],
+			["cg_horsehead_blk",nil,11120],
+			["cg_horsehead_pnk",nil,11120],
+
+			["ALE_H_NewEra_Monster",nil,1120],
+			["ALE_H_NewEra_Rouge",nil,1120],
+			["ALE_H_NewEra_Superman",nil,1120],
+			["ALE_H_NewEra_Cyan",nil,1120],
+			["ALE_H_NewEra_Black",nil,1120],
+			["ALE_H_NewEra_Lakers",nil,1120],
+			["ALE_H_NewEra_Redsox",nil,1120],
+			
+			["ALE_H_Calot",nil,120],
+			["ALE_H_Cowboy_White",nil,120],
+			["ALE_H_Cowboy_Black",nil,120],
+			["ALE_H_Cowboy_Brown",nil,120],
+
+["kio_vfv_mask","Anon", 1000],
+["Kio_Capital_Hat","Top Hat w/Monacle", 1000],
+["a3l_hardhat","Hard Hat", 200],
+["Kio_Afro_Hat","Brown Afro", 200],
+["H_Beret_blk","Black Beret", 200],
+["H_Booniehat_khk",nil, 400],
+["H_Booniehat_oli",nil, 400],
+["H_Booniehat_tan",nil, 400],
+["Kio_No1_Hat","#1 Hat", 200],
+["Kio_Pirate_Hat","Pirate Hat", 1000],
+["Kio_Santa_Hat","Santa Hat", 200],
+["Kio_Spinning_Hat","Spinning Hat", 200],
+["Kio_Hat","Cute Warm Hat", 200],
+["TRYK_H_Bandana_H","Ninja Bandana",100],
+["TRYK_H_Bandana_wig","Ninja Bandana II",200],
+["TRYK_H_EARMUFF","Ear Protectors",200],
+["TRYK_H_headsetcap_blk","Black Hat",100],
+["TRYK_H_headsetcap","White Hat",100],
+["TRYK_H_pakol2","Mid East Hat",1000],
+["TRYK_R_CAP_BLK","Reverse Black",1000],
+["TRYK_R_CAP_TAN","Reverse White",1000],
+["TRYK_H_wig","Real Hair Wig",2000],
+["TRYK_H_woolhat","Slick Beanie",4000],
+
+//koil added
+
+
+			["A3L_Legoman","Lego Helmet",5000],
+			["A3L_soa_helmet","Biker Helmet",400],	
+			["A3L_gangster_hat","Gangster Mask",100],
+			["A3L_Mask","Mask",100],				
 			["A3L_longhairblack","Long Hair Black",120],
 			["A3L_longhairblond","Long Hair Blond",120],
 			["A3L_longhairbrown","Long Hair Brown",120],
@@ -106,6 +291,28 @@ switch (_filter) do
 	case 2:
 	{
 		[
+			//beards
+			["SFG_Tac_smallBeardB",nil,25],
+			["SFG_Tac_smallBeardD",nil,25],
+			["SFG_Tac_smallBeardG",nil,25],
+			["SFG_Tac_smallBeardO",nil,25],
+			["SFG_Tac_BeardB",nil,25],
+			["SFG_Tac_BeardD",nil,25],
+			["SFG_Tac_BeardG",nil,25],
+			["SFG_Tac_BeardO",nil,25],
+			["SFG_Tac_chinlessbB",nil,25],
+			["SFG_Tac_chinlessbD",nil,25],
+			["SFG_Tac_chinlessbG",nil,25],
+			["SFG_Tac_chinlessbO",nil,25],
+			["SFG_Tac_moustacheB",nil,25],
+			["SFG_Tac_moustacheD",nil,25],
+			["SFG_Tac_moustacheG",nil,25],
+			["SFG_Tac_moustacheO",nil,25],
+			["SFG_Tac_ChopsB",nil,25],
+			["SFG_Tac_ChopsD",nil,25],
+			["SFG_Tac_ChopsG",nil,25],
+			["SFG_Tac_ChopsO",nil,25],
+			//bears end
 			["G_Shades_Black",nil,25],
 			["G_Shades_Blue",nil,20],
 			["G_Sport_Blackred",nil,20],
@@ -126,6 +333,20 @@ switch (_filter) do
 	case 3:
 	{
 		[
+		["V_Press_F",nil,2500],
+		["A3L_SpiderVest",nil,2500],
+		["A3L_SpookyVest",nil,2500],
+		["k_cut_1",nil,52500],
+		["k_cut_2",nil,52500],
+		["k_cut_3",nil,52500],
+		["k_cut_4",nil,52500],
+		["k_cut_5",nil,52500],
+		["k_cut_6",nil,52500],
+		["k_cut_7",nil,52500],
+		["k_cut_8",nil,52500],
+		["k_cut_9",nil,52500],
+		["k_cut_10",nil,52500],
+		["k_cut_11",nil,52500]
 		];
 	};
 	
@@ -133,14 +354,75 @@ switch (_filter) do
 	case 4:
 	{
 		[
+
 			["B_AssaultPack_cbr",nil,2500],
-			["B_Kitbag_mcamo",nil,4500],
+			["B_AssaultPack_rgr",nil,2500],
+			["B_AssaultPack_khk",nil,2500],
+			["B_AssaultPack_sgg",nil,2500],
+			["B_AssaultPack_blk",nil,2500],
 			["B_TacticalPack_oli",nil,3500],
-			["B_FieldPack_ocamo",nil,3000],
 			["B_Bergen_sgg",nil,4500],
-			["B_Kitbag_cbr",nil,4500],
+			["B_FieldPack_oli",nil,4500],
+			["B_FieldPack_cbr",nil,4500],
+			["B_FieldPack_khk",nil,4500],
 			["B_Carryall_oli",nil,5000],
-			["B_Carryall_khk",nil,5000]
+			["B_Carryall_khk",nil,5000],
+
+
+
+			//koil added bps
+			["kaelmonty",nil,5500],	
+			["kaelmonty2",nil,5500],
+			["kaelmario",nil,5500],	
+			["kaelsuits",nil,5500],	
+			["koilbatman_1",nil,5500],	
+			["koilbender_1",nil,5500],	
+			["koilbender_2",nil,5500],	
+			["koilclint_1",nil,5500],	
+			["koileminem_1",nil,5500],	
+			["koilgraf_1",nil,5500],	
+			["koilgraf_2",nil,5500],	
+			["koilgraf_3",nil,5500],	
+			["koilhulk_1",nil,5500],	
+			["koiljoker_1",nil,5500],	
+			["koilpumpkin_1",nil,5500],	
+			["koilsparta_1",nil,5500],	
+			["koilsponge_1",nil,5500],	
+			["koilturtles_1",nil,5500],	
+			["koilkatie",nil,5500],
+			["koilpanda",nil,5500],
+			["koilaiden",nil,5500],
+			["koileagle",nil,5500],
+			["koilspecktators",nil,5500],
+			["koildarth",nil,5500],
+			["koilgucci",nil,5500],
+			["koilsmashing",nil,5500],
+			["koilgoonsquad",nil,5500],
+			["koilcat",nil,5500],
+			["koilbp_19",nil,5500],	
+			["koilbp_21",nil,5500],	
+			["koilbp_22",nil,5500],
+			["koilbp_1",nil,5500],	
+			["koilbp_2",nil,5500],	
+			["koilbp_3",nil,5500],	
+			["koilbp_4",nil,5500],	
+			["koilbp_5",nil,5500],	
+			["koilbp_6",nil,5500],	
+			["koilbp_7",nil,5500],	
+			["koilbp_8",nil,5500],	
+			["koilbp_9",nil,5500],	
+			["koilbp_10",nil,5500],	
+			["koilbp_11",nil,5500],	
+			["koilbp_12",nil,5500],	
+			["koilbp_13",nil,5500],	
+			["koilbp_14",nil,5500],	
+			["koilbp_15",nil,5500],	
+			["koilbp_16",nil,5500],	
+			["koilbp_17",nil,5500],	
+			["koilbp_18",nil,5500]
+			//koil addedd
+
+
 		];
 	};
 };

@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
-player addUniform "A3L_Sheriff_Uniform";
+player addUniform "cadet_uni";
 
 // Add shortrange radio
 player addItem "tf_anprc152"; 
