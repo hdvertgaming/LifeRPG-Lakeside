@@ -1,4 +1,4 @@
-/*
+Standard Police Vest/*
 	File: welcome.sqf
 	Author: ZedBuster
         Link: opendayz.net/threads/dayz-welcome-message-credits-style.13071/
@@ -27,8 +27,8 @@ _role4 = "Stay In-Character!";
 _role4names = ["Don't go OOC! Have a problem? Report it."];
 _role5 = "~ Admins ~";
 _role5names = ["Are always watching you :)"];
-_role6 = "Reminder";
-_role6names = ["This is a BETA, there are bugs."];
+_role6 = "Thanks to the developers";
+_role6names = ["Heisen and Prof Martin"];
 _role7 = "Reminder 2";
 _role7names = ["Have fun, de-stress and follow the rules"];
  

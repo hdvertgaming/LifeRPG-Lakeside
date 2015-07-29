@@ -484,21 +484,19 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["IVORY_PRIUS",10000],
-			["DAR_CVPIPolice",20000],
-			["DAR_CVPISlick",20000],
-			["DAR_ImpalaPolice",20000],
-			["DAR_TaurusPolice",20000],
-			["DAR_ChargerPolice",20000],
-			["DAR_TahoePoliceSlick",20000],
-			
-			["cg_cvpitrooper",20000],
-			["cg_trooperevo",20000],
-			["cg_taurustrooper",20000],
-			["charger_st",20000],
-			
+			["A3L_CVPIFPBPD",20000],
+			["A3L_CVPIFPBHP",20000],
+			["A3L_CVPIFPBLBHP",20000],
+			["A3L_CVPIFPBLBSM",20000],
 			["A3L_CVPIFPBCSO",20000],
+			["A3L_CVPIFPBLBPD",20000],
 			["A3L_CVPIFPBLBCSO",20000],
+			["A3L_TaurusCO1",20000],
+			
+			["EvoXSo1",50000],
+			["EvoXSo2",50000],
+			["EvoXSo4",50000],
+			
 			["A3L_TaurusFPBCSO",20000],
 			["A3L_TaurusFPBLBCSO",20000],
 			
@@ -506,19 +504,9 @@ switch (_shop) do
 			["A3L_TaurusUCWhite",20000],
 			["A3L_TaurusUCBlue",20000],
 			["A3L_TaurusUCRed",20000],
-			
-  			["A3L_TaurusPD1",20000],
-		    ["A3L_TaurusPD2",20000],
-			["Jonzie_96_Impala_Unmarked",20000],
-			["A3L_CVPIUCBlue",20000],
-			["DAR_TahoePoliceDet",20000],
-			["cg_h2_sert",40000],
-			
 			["AM_Holden_Police",20000],
-			["DAR_ExplorerPoliceStealth",20000],
-			["charger_umb",20000],
-			["charger_umw",20000],
-			["IVORY_REV",100000],
+			
+			["DAR_SWATPolice",40000],
 			["A3L_jailBus",50000]
 			
 		];

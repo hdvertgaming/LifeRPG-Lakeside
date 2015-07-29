@@ -21,29 +21,23 @@ switch (_filter) do
         _ret set[count _ret,["cadet_uni","Cadet Uniform",1500]];
 		if(__GETC__(life_coplevel) > 1) then
         {
-			_ret set[count _ret,["A3L_Police_Uniform","Police Uniform",1500]];
-			_ret set[count _ret,["police_uni1","Officer Uniform",1500]];
+			_ret set[count _ret,["A3L_Police_Uniform","DONT USE",1500]];
+			_ret set[count _ret,["police_uni1","DONT USE",1500]];
         };
         if(__GETC__(life_coplevel) > 1) then
         {
-			_ret set[count _ret,["police_uni2","Sergeant Uniform",1500]];
+			_ret set[count _ret,["police_uni2","DONT USE",1500]];
 		};	
 		if(__GETC__(life_coplevel) > 1) then
         {	
-			_ret set[count _ret,["doj_uni","DoJ Uniform",1500]];
 			_ret set[count _ret,["FBI_uni","FBI Uniform",1500]];
-            _ret set[count _ret,["sheriff_uni1","Sheriff Uniform 1",1500]];
-			_ret set[count _ret,["sheriff_uni2","Sheriff Uniform 2",1500]];
-			_ret set[count _ret,["A3L_Sheriff_Uniform","Sheriff Uniform",1500]];
-		};	
-		if(__GETC__(life_coplevel) > 1) then
-        {
 			_ret set[count _ret,["fto_uni","Field Training Uniform",1500]];
-		};
-		if(__GETC__(life_coplevel) > 1) then
-        {	
+			_ret set[count _ret,["doj_uni","DoC Uniform",1500]];
+			_ret set[count _ret,["sheriff_uni1","Highway Patrol Clothing",1500]];
+			_ret set[count _ret,["A3L_Sheriff_Uniform","Standard Clothing",1500]];
+			_ret set[count _ret,["sheriff_uni2","Captain Uniform",1500]];
 			_ret set[count _ret,["police_uni3","Chief Uniform",1500]];
-		};
+		};	
 		if(!license_cop_swat) then
         {	
 			_ret set[count _ret,["sert_1","Swat Uniform",1500]];
@@ -80,34 +74,14 @@ switch (_filter) do
 	{
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["A3L_policevest2","Black Police Vest (WF)",2000]];
-			_ret set[count _ret,["A3L_policevest1","Black Police Vest (YF) ",2000]];
-			_ret set[count _ret,["rangervest_co","ranger Vest",2000]];
-			_ret set[count _ret,["A3L_RideAlongVest","Ride Along",200]];
+			_ret set[count _ret,["A3L_policevest2","Standard Vest(WF)",2000]];
+			_ret set[count _ret,["A3L_policevest1","Standard Vest (YF) ",2000]];
 		    _ret set[count _ret,["cl3_police_vest_yellow","Cadet/Recruit",200]];
-		    _ret set[count _ret,["A3L_policevest2","Patrol White",200]];
-		    _ret set[count _ret,["A3L_policevest1","Patrol Yellow",200]];
-		    _ret set[count _ret,["A3L_deptjvest1","Corrections",200]];
-		    _ret set[count _ret,["TCG_troopervest1","Trooper",200]];
-		    _ret set[count _ret,["DAI_TACVEST_WHITE","IA White",200]];
-		    _ret set[count _ret,["DAI_TACVEST_YELLOW","IA Yellow",200]];
-		    _ret set[count _ret,["DAI_TACVEST_BLACK","IA Black w/Holster",200]];
-		    _ret set[count _ret,["DAI_TACVEST_TAN","IA Tan w/holster",200]];
-		    _ret set[count _ret,["TCG_swatvest1","SWAT OFC",200]];
-		    _ret set[count _ret,["TCG_swatvest2","SWAT CPL",200]];
-		    _ret set[count _ret,["TCG_swatvest3","SWAT SGT",200]];
-		    _ret set[count _ret,["TCG_swatvest1","SWAT LT",200]];
-		    _ret set[count _ret,["TRYK_V_tacv1LC_P_BK","Code Red Vest",200]];
-		    _ret set[count _ret,["TRYK_V_tacv1LP_BK","Command Vest 1",200]];
-		    _ret set[count _ret,["TRYK_V_PlateCarrier_POLICE","Command Vest 2",200]];
+		    _ret set[count _ret,["A3L_deptjvest1","DoC Vest",200]];
+		    _ret set[count _ret,["TRYK_V_PlateCarrier_POLICE","Chief Vest",200]];
 		};	
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret set[count _ret,["A3L_deptjvest1","DoJ Vest",2000]];
-			_ret set[count _ret,["A3L_fbivest1","FBI Vest",2000]];
-			_ret set[count _ret,["A3L_sheriffvest3","Sheriff Vest (Green)",2000]];
-			_ret set[count _ret,["A3L_sheriffvest2","Sheriff Vest (Grey)",2000]];
-			_ret set[count _ret,["A3L_sheriffvest1","Sheriff Vest (Tan)",2000]];
 			_ret set[count _ret,["SWATvest1","SWAT Vest",2000]];
 			_ret set[count _ret,["SWATvest2","SWAT Vest No Holster",2000]];
 		};
