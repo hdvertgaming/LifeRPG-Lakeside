@@ -1,5 +1,5 @@
 author = "A3L Development Team";
-onLoadName = "ArmA 3 Life 0.3.2";
+onLoadName = "ArmA 3 Life 0.3.3";
 onLoadMission = "A Roleplay mission developed by ArmA 3 Life";
 loadScreen = "textures\E76_AppleGate_Lake.paa";
 joinUnassigned = 1;
